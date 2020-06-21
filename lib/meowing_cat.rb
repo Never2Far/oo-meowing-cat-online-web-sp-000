@@ -12,8 +12,8 @@ def meow
 end
 end
 
-maru = Cat.new("Maru")
-
+maru = Cat.new
+maru.name = "Maru"
 
 maru.name
 
